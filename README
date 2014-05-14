@@ -1,0 +1,31 @@
+
+
+
+	This project is basic on the open source project TinyThread++,And I had transfered it to Android.
+
+	You can compile it using NDK in android2.2 above, I had tested it successfully.
+
+
+	In Java part, there is some class you can use in the package com.ki4wangdy.tinyThread :
+	(Mutex):
+	1.FastLock
+	2.Lock
+	3.RecursiveLock
+	You can reference the difference between these class in the tinyThread++ project.
+
+	(Condition):
+	1.Condition
+	This class "Condition" means the same as the java native Condition, you can reference the usage of java class.
+	
+
+	(Thread):
+	1.Thread
+	
+	The Thread class had provided some basic function you can use, I think it is enough in pratice.
+
+
+==========================The following is Android part ========================================
+
+	First, you can import this project into Eclipse.
+	In the class "MainActivity", there are some static codes,which are used to launch the UnitTest. 
+
